@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+li {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-bar {
+    background-color: #ebebeb;
+    padding-top: 40px;
+}
+
+.menu-bar-link {
+    color: #c7c7c7;
+}
+
+.menu-bar-search {
+    font-size: 12px;
+
+}
+
+.menu-bar-search-win {
+    width: 250px;
+    padding: 17px;
+    padding-right: 13px;
+    border: 0;
+    height: 50px;
+    color: #959595;
+}
+
+.menu-bar-search-but {
+    background: url(../img/clock1.png) no-repeat center;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border: 0;
+}
