@@ -13,8 +13,8 @@
 </head>
 <body>
     <header class="menu-bar">
-        <div class="container">
-            <div class="row d-flex align-items-center">
+        <div class="container position-relative">
+            <div class="row d-flex align-items-center mb-5">
                 <div class="col-lg-4">
                     <a href="!#" class="menu-bar-logo">
                         <img src="img/Logo.png" alt="Travler" class="logo">
@@ -22,12 +22,12 @@
                 </div>
                 <div class="col-lg-2">
                     <a href="!#" class="menu-bar-link">Quicklinks
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>    
                 <div class="col-lg-2">
-                    <select class="form-control form-control-lg menu-bar-select">
-                        <option disabled>Select from </option>
+                    <select class="form-control menu-bar-select">
+                        <option class="disabled">Select from dropdown</option>
                         <option>Option1</option>
                         <option>Option2</option>
                         <option>Option3</option>
@@ -35,15 +35,71 @@
                     </select>
                 </div>
                 <div class="col-lg-4 ml-auto">
-                    <form class="menu-bar-search">
+                    <form class="menu-bar-search navbar-search pull-right">
                         <div class="menu-bar-search">
                             <input class="menu-bar-search-win" type="search" name="q" placeholder="Search for something here"><input class="menu-bar-search-but" type="submit" value="">
                         </div>
                     </form>
                 </div>
             </div>
+            <div class="row absolute">
+                <div class="col-lg-12">
+                    <nav class="menu-nav">
+                        <ul class="menu d-flex">
+                            <li class="menu-item col py-4">
+                                <a href="!#">
+                                    <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                                    <h6>Travel Guide</h6>
+                                </a>
+                            </li>
+                            <li class="menu-item col py-4">
+                                <a href="!#">
+                                    <i class="fa fa-paper-plane-o fa-2x" aria-hidden="true"></i>
+                                    <h6>Services</h6>
+                                </a>
+                            </li>
+                            <li class="menu-item col py-4">
+                                <a href="!#">
+                                    <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
+                                    <h6>About</h6>
+                                </a>
+                            </li>
+                            <li class="menu-item col py-4">
+                                <a href="!#">
+                                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                                    <h6>The Tour</h6>
+                                </a>
+                            </li>
+                            <li class="menu-item col py-4">
+                                <a href="!#">
+                                    <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                                    <h6>How To</h6>
+                                </a>
+                            </li>
+                            <li class="menu-item col py-4">
+                                <a href="!#">
+                                    <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
+                                    <h6>Contact</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>    
         </div>
     </header>
+
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="intro-pic" src="img/message.png" alt="message">
+                    <h1 class="intro-title">Travler gets you to where you want to be.</h1>
+                    <p class="intro-text">Around the world. Around the clock.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
