@@ -12,24 +12,25 @@
     <!-- <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css"> -->
     <!-- <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Travler</title>
 </head>
 <body>
     <header class="menu-bar">
         <div class="container position-relative">
             <div class="row align-items-center mb-4">
-                <div class="col-md-4 sm-8">
+                <div class="col-md-4 col-sm-8 logo-up">
                     <a href="#" class="menu-bar-logo">
                         <img src="img/Logo.png" alt="Travler" class="logo">
                     </a>
                 </div>
-                <div class="col-md-2 sm-4 pr-0 quicklinks">
+                <div class="col-md-2 col-sm-3 col-3 quicklinks">
                     <a href="#" class="menu-bar-link">Quicklinks
                         <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>    
-                <div class="col-md-2 px-0">
+                <div class="w-100 d-none d-sm-block d-md-none py-3"></div>
+                <div class="col-md-2 col-sm-5 header-select">
                     <select class="form-control menu-bar-select select-style">
                         <option></option>
                         <option>Option1</option>
@@ -38,48 +39,52 @@
                         <option>Option4</option>
                     </select>
                 </div>
-                <div class="col-md-4">
-                    <form class="menu-bar-search navbar-search">
-                            <input class="menu-bar-search-form" type="search" name="q" placeholder="Search for something here"><input class="menu-bar-search-but" type="submit" value="">
+                <div class="col-md-4 col-sm-7">
+                    <form class="menu-bar-search navbar-search d-flex">
+                        <input class="menu-bar-search-form" type="search" name="q" placeholder="Search for something here">
+                        <input class="menu-bar-search-but" type="submit" value="">
                     </form>
                 </div>
             </div>
             <div class="row absolute">
                 <div class="col-lg-12">
-                    <nav class="menu-nav">
-                        <ul class="menu d-flex">
-                            <li class="menu-item col py-4">
-                                <a href="#">
+                    <div class="header-burger">
+                        <span></span>
+                    </div>
+                    <nav class="menu-nav header-menu">
+                        <ul class="menu header-list">
+                            <li class="menu-item col">
+                                <a href="#" class="header-link">
                                     <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
                                     <h6>Travel Guide</h6>
                                 </a>
                             </li>
-                            <li class="menu-item col py-4">
-                                <a href="#">
+                            <li class="menu-item col">
+                                <a href="#" class="header-link">
                                     <i class="fa fa-paper-plane-o fa-2x" aria-hidden="true"></i>
                                     <h6>Services</h6>
                                 </a>
                             </li>
-                            <li class="menu-item col py-4">
-                                <a href="#">
+                            <li class="menu-item col">
+                                <a href="#" class="header-link">
                                     <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
                                     <h6>About</h6>
                                 </a>
                             </li>
-                            <li class="menu-item col py-4">
-                                <a href="#">
+                            <li class="menu-item col">
+                                <a href="#" class="header-link">
                                     <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                                     <h6>The Tour</h6>
                                 </a>
                             </li>
-                            <li class="menu-item col py-4">
-                                <a href="#">
+                            <li class="menu-item col">
+                                <a href="#" class="header-link">
                                     <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
                                     <h6>How To</h6>
                                 </a>
                             </li>
-                            <li class="menu-item col py-4">
-                                <a href="#">
+                            <li class="menu-item col">
+                                <a href="#" class="header-link">
                                     <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
                                     <h6>Contact</h6>
                                 </a>
@@ -95,7 +100,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-9 mx-auto intro-desc">
-                    <a href="!#" class="intro-link"><img class="intro-pic" src="img/message.png" alt="message"></a>
+                    <a href="#" class="intro-link"><img class="intro-pic" src="img/message.png" alt="message"></a>
                     <h1 class="intro-title">Travler gets you to where you want to be.</h1>
                     <p class="intro-text">Around the world. Around the clock.</p>
                 </div>
@@ -106,7 +111,7 @@
     <section class="tagline">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-sm-9 mx-auto">
                     <h2 class="tagline-title">Anywhere, anytime, where here to help.</h2>
                     <p class="tagline-text descrip">And we mean that.</p>
                 </div>
@@ -117,14 +122,14 @@
                 </div>
             </div>
             <div class="row tagline-cards">
-                <div class="col-md-4">
+                <div class="col-md-4 tagline-card">
                     <div class="tagline-item-pic mx-auto">
                         <img src="img/clock.png" alt="clock">
                     </div>
                     <h4 class="tagline-item-title">Save Time</h4>
                     <p class="tagline-item-text">Lets throw a trackie dacks also it'll be gutta. You little ripper avos flamin lets throw a lizard drinking. Gutful of jug where as busy as a big smoke. Grab us a billy as cunning as a bull bar. As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a r. As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a  </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 tagline-card">
                     <div class="tagline-item-pic mx-auto">
                         <img src="img/cloud.png" alt="cloud">
                     </div>
@@ -132,39 +137,14 @@
                     <p class="tagline-item-text">As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a strides also as cross as a thingo.</p>
                     <p class="tagline-item-text">Built like a old fella no dramas grab us a ten clicks away.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 tagline-card">
                     <div class="tagline-item-pic mx-auto not-after">
                         <img src="img/box.png" alt="box">
                     </div>
                     <h4 class="tagline-item-title">Design Features</h4>
                     <p class="tagline-item-text">Built like a old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.</p>
                     <p class="tagline-item-text">A old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.</p>
-                </div>
-            </div>
-             <div class="row tagline-cards">
-                <div class="col-md-4">
-                    <div class="tagline-item-pic mx-auto">
-                        <img src="img/clock.png" alt="clock">
-                    </div>
-                    <h4 class="tagline-item-title">Save Time</h4>
-                    <p class="tagline-item-text">Lets throw a trackie dacks also it'll be gutta. You little ripper avos flamin lets throw a lizard drinking. Gutful of jug where as busy as a big smoke. Grab us a billy as cunning as a bull bar. As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a </p>
-                </div>
-                <div class="col-md-4">
-                    <div class="tagline-item-pic mx-auto">
-                        <img src="img/cloud.png" alt="cloud">
-                    </div>
-                    <h4 class="tagline-item-title">Win over the team</h4>
-                    <p class="tagline-item-text">As cunning as a bonzer flamin as stands out like cubby house. As cross as a mate no dramas as cunning as a bonzer. Gutful of kindie flamin as cross as a grundies. Lets throw a strides also as cross as a thingo.</p>
-                    <p class="tagline-item-text">Built like a old fella no dramas grab us a ten clicks away.</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="tagline-item-pic mx-auto not-after">
-                        <img src="img/box.png" alt="box">
-                    </div>
-                    <h4 class="tagline-item-title">Design Features</h4>
-                    <p class="tagline-item-text">Built like a old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.</p>
-                    <p class="tagline-item-text">A old fella no dramas grab us a ten clicks away. Lets get some digger when she'll be right metho. As cross as a no dramas as cunning as a barrack.</p>
-                </div>
+                </div>          
             </div>
         </div>
     </section>
@@ -308,12 +288,12 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <a href="!#" class="footer-logo-link">
+                    <a href="#" class="footer-logo-link">
                         <img src="img/logo-black.png" alt="Travler" class="footer-logo-pic">
                     </a>
                 </div>
-                <div class="col-md-6 align-self-center">
-                    <ul class="footer-menu-items d-flex justify-content-between pl-5">
+                <div class="col-lg-5 col-md-6 col-sm-9 col-2 align-self-center">
+                    <ul class="footer-menu-items d-flex justify-content-between">
                         <li class="footer-menu-item">
                             <a href="#" class="footer-menu-link">Portfolio</a>
                         </li>
@@ -337,8 +317,8 @@
                 <div class="col-md-6">
                     <p>Trent from punchy digger bloody gutful of mokkies. Get a dog up ya fair dinkum mate as cross as a flake. Stands out like a bluey flamin stands out like a pot. As stands out like christmas to grab us a ugg boots. She'll be right buckley's chance my as stands out like divvy van. It'll be smokes trent from punchy chewie. </p>
                 </div>
-                <div class="col-lg-6">
-                    <ul class="footer-social d-flex justify-content-start pl-5">
+                <div class="col-lg-5 col-md-6 col-5">
+                    <ul class="footer-social d-flex justify-content-start">
                         <li class="footer-menu-item">
                             <a href="#" class="footer-menu-link">
                                 <i class="fab fa-twitter"></i>Twitter

@@ -1,9 +1,24 @@
 $(document).ready(function(){   
+ // Burger menu
 
+    $('.header-burger').click(function(event) {
+        $('.header-burger,.header-menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+    $('.header-menu').click(function(event) {
+        $('.header-burger,.header-menu').removeClass('active');
+        $('body').removeClass('lock');
+    });
+
+
+
+ // Select2
   $('.menu-bar-select').select2({
-    placeholder: 'Select from dropdown'
+    placeholder: 'Select from item'
   });
 
+
+ // Owl-carousel
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
